@@ -27,6 +27,7 @@ namespace Class_work_1
             Console.ReadKey();
             Console.WriteLine(rand.Next(101));
             Console.WriteLine();
+            Console.Write("{0,8:N0}", rand.Next(50, 101));
             //Program p = new Program();
             //p.setSteve(4);
             //Console.WriteLine("Steve is: " + p.getSteve());
