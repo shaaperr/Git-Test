@@ -50,7 +50,7 @@ namespace Class_work_1
                         Console.WriteLine("Correct guess!");
                     }
                 }*/
-
+             
 
             // Console.WriteLine();
             //Console.Write("{0,8:N0}", rand.Next(50, 101));
