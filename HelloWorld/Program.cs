@@ -13,7 +13,6 @@ namespace Class_work_1
         static void Main(string[] args)
         {
             
-
             var rand = new Random();
 
             Console.WriteLine("Range X (minimum)?");
