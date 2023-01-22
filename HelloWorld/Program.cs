@@ -51,7 +51,7 @@ namespace Class_work_1
                 }
             Console.WriteLine("\n Correct guess! It took you " + count + " tries.");
 
-
+            
             // Console.WriteLine();
             //Console.Write("{0,8:N0}", rand.Next(50, 101));
             //Program p = new Program();
