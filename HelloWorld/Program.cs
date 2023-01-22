@@ -22,7 +22,7 @@ namespace Class_work_1
         }*/
         static void Main(string[] args)
         {
-            /*
+            
             var rand = new Random();
             Console.WriteLine("I am thinking of a number between 0 and 100.");
             //Console.ReadKey();
@@ -31,8 +31,9 @@ namespace Class_work_1
             //Console.WriteLine(randN);
             Console.WriteLine("What number am I thinking of? ");
             int userIn = Convert.ToInt32(Console.ReadLine());
+            int count = 0;
             while (userIn != randN){
-                    int count;
+                
                     if (userIn > randN)
                     {
                         Console.WriteLine("You are above the number I'm thinking of!");
@@ -45,12 +46,11 @@ namespace Class_work_1
                         Console.WriteLine("What number am I thinking of? ");
                         userIn = Convert.ToInt32(Console.ReadLine());
                     }
-                    else if (userIn == randN)
-                    {
-                        Console.WriteLine("Correct guess!");
-                    }
-                }*/
-             
+                    
+                count++;
+                }
+            Console.WriteLine("\n Correct guess! It took you " + count + " tries.");
+
 
             // Console.WriteLine();
             //Console.Write("{0,8:N0}", rand.Next(50, 101));
@@ -58,11 +58,11 @@ namespace Class_work_1
             //p.setSteve(4);
             //Console.WriteLine("Steve is: " + p.getSteve());
             //Console.ReadKey();
-            Console.WriteLine("Range X?");
-            int userInX = Convert.ToInt32(Console.ReadLine());
+            // Console.WriteLine("Range X?");
+            // int userInX = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Limit Y?");
-            int userInY = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Limit Y?");
+            //int userInY = Convert.ToInt32(Console.ReadLine());
 
         }
     }
